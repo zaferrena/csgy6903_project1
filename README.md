@@ -14,7 +14,6 @@ The key used by the permutation cipher.
 Part of the encryption scheme (to be detailed below).
 The plaintext is a space-separated sequence of words from the English dictionary (the sentence may not be meaningful, for sake of simplicity). The key is a map from each English alphabet (lower-case) letter (including <space>) to a list of numbers randomly chosen between 0 and 105, where the length of this list is the (rounded) letter’s frequency in English text, as defined in the table below. The ciphertext looks like a sequence of comma-separated numbers between 0 and 105, obtained as a sequence of encryptions of words, where each word is encrypted as a comma-separated list of numbers between 0 and 105, and these numbers are computed using the table below.
 
- 
 
 English letters  Average frequency  Key values (randomly chosen distinct numbers between 0 and 105)
 
