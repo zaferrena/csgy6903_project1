@@ -16,157 +16,35 @@ The plaintext is a space-separated sequence of words from the English dictionary
 
  
 
-English letters
-
-Average frequency
-
-Key values (randomly chosen distinct numbers between 0 and 105)
-
-<space>
-
-19
-
-k(<space>,1),…,k(<space>,19)
-
-a
-
-7
-
-k(a,1),…,k(a,7)
-
-b
-
-1
-
-k(b,1)
-
-c
-
-2
-
-k(c,1),k(c,2)
-
-d
-
-4
-
-k(d,1),…,k(d,4)
-
-e
-
-10
-
-k(e,1),…,k(e,10)
-
-f
-
-2
-
-…
-
-g
-
-2
-
- 
-h
-
-5
-
- 
-i
-
-6
-
- 
-j
-
-1
-
- 
-k
-
-1
-
- 
-l
-
-3
-
- 
-m
-
-2
-
- 
-n
-
-6
-
- 
-o
-
-6
-
- 
-p
-
-2
-
- 
-q
-
-1
-
- 
-r
-
-5
-
- 
-s
-
-5
-
- 
-t
-
-7
-
- 
-u
-
-2
-
- 
-v
-
-1
-
- 
-w
-
-2
-
- 
-x
-
-1
-
- 
-y
-
-2
-
- 
-z
-
-1
-
- 
- 
-
- 
+English letters  Average frequency  Key values (randomly chosen distinct numbers between 0 and 105)
+
+<space>          19                 k(<space>,1),…,k(<space>,19)
+a                7                  k(a,1),…,k(a,7)
+b                1                  k(b,1)
+c                2                  k(c,1),k(c,2)
+d                4                  k(d,1),…,k(d,4)
+e                10                 k(e,1),…,k(e,10)
+f                2                  …
+g                2
+h                5
+i                6
+j                1
+k                1 
+l                3
+m                2
+n                6
+o                6
+p                2
+q                1
+r                5
+s                5
+t                7
+u                2
+v                1
+w                2
+x                1
+y                2
+z                1
 
 The cipher works as follows. It takes as input a plaintext from a message space and a key randomly chosen from a key space and returns a ciphertext.
 
