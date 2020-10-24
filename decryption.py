@@ -1,5 +1,3 @@
-import argparse
-
 def main():
     cyphertext = input("Please put cyphertext here: ")
     cypherlist = cyphertext.split(",")
