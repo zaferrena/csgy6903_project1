@@ -16,4 +16,4 @@ To run second test:
 - randomize_plaintext.py is just used to create a set of english words from the dictionary to test dercyption_test2 program
 (use steps for second test to run this program, but run command python randomize_plaintext.py [name of text file])
 
-- encrpytion.py takes plaintext candidates from test 1 and encrypts them in order to test functionarly decrpytion_test1
+- encrpytion.py takes plaintext candidates from test 1 and encrypts them in order to test functionality of decrpytion_test1
