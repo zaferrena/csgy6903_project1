@@ -1,7 +1,7 @@
 # csgy6903_project1
 Project 1 for Applied Cryptography
 
-Created by Zach Ferrena, Gavin Senger
+Created by Zachary Ferrena, Gavin Senger
 
 To run first test:
 1) paste plaintext candidates into each append on lines 10-14
